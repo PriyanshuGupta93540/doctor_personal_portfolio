@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <div>
       {/* Top Navbar start */}
-      <div className="justify-between mx-24 my-6 navbar hidden lg:flex">
+      <div className="justify-between mx-[45px] my-6 navbar hidden lg:flex">
         {/* Left top navbar */}
         <div className="flex gap-2">
           <InstagramIcon className="text-customTeal w-[18px] h-[18px]" />
@@ -49,7 +49,7 @@ const Header = () => {
       </div>
 
       <hr />
-      <div className="flex justify-between mx-[32px] my-6">
+      <div className="flex justify-between mx-[45px] my-6">
         <div className="text-customTeal font-bold flex gap-4 items-center">
           <Image
             src="/Images/logo.png" // Path to your image

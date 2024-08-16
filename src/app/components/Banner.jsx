@@ -4,7 +4,7 @@ import Image from "next/image";
 const Banner = () => {
   return (
     <div>
-      <div className="bg-customTeal sm:w-full h-auto text-white flex px-8 pt-16 flex-col sm:flex-row">
+      <div className="bg-customTeal sm:w-full h-auto text-white flex px-[45px] pt-16 flex-col sm:flex-row">
         <div className="flex flex-col ">
           <span className="text-pauseredone">
             Navigate Your Path To Wellness
