@@ -18,7 +18,7 @@ const Specialization = () => {
               AND HEALTHY SOLUTIONS
             </h2>
             <h3 className="mt-2 text-playred font-medium text-lg">
-              Let's make you healthy together
+              Let&#39;s make you healthy together
             </h3>
           </div>
           <div className="w-full sm:w-1/2 lg:w-1/4 p-2">
