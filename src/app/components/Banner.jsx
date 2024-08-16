@@ -4,7 +4,7 @@ import Image from "next/image";
 const Banner = () => {
   return (
     <div>
-      <div className="bg-customTeal sm:w-full h-auto text-white flex px-24 pt-16 flex-col sm:flex-row">
+      <div className="bg-customTeal sm:w-full h-auto text-white flex px-8 pt-16 flex-col sm:flex-row">
         <div className="flex flex-col ">
           <span className="text-pauseredone">
             Navigate Your Path To Wellness
@@ -13,9 +13,10 @@ const Banner = () => {
             We Prioritise, Your Health Here
           </span>
           <span className="my-2">
-            Get a home visit by our experienced &amp; dedicated General Physicians
-            who are available 24X7. Kyno brings you the reliability of a &#39;family
-            doctor&#39; along with a wide range of at-home medical services.
+            Get a home visit by our experienced &amp; dedicated General
+            Physicians who are available 24X7. Kyno brings you the reliability
+            of a &#39;family doctor&#39; along with a wide range of at-home
+            medical services.
           </span>
           <button className="bg-red-500 text-white w-[200px] py-2 rounded-lg my-6">
             Call me: 93540760365

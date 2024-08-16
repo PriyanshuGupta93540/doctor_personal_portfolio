@@ -18,6 +18,10 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <div>
       {/* Top Navbar start */}
@@ -45,7 +49,7 @@ const Header = () => {
       </div>
 
       <hr />
-      <div className="flex justify-between mx-24 my-6">
+      <div className="flex justify-between mx-[32px] my-6">
         <div className="text-customTeal font-bold flex gap-4 items-center">
           <Image
             src="/Images/logo.png" // Path to your image
@@ -70,42 +74,62 @@ const Header = () => {
         >
           <ul className="flex flex-col lg:flex-row gap-6 lg:gap-8 p-6 lg:p-0">
             <li className="cursor-pointer font-medium">
-              <Link to="home" smooth={true} duration={500}>
+              <Link to="home" smooth={true} duration={500} onClick={closeMenu}>
                 Home
               </Link>
             </li>
             <li className="cursor-pointer">
-              <Link to="about" smooth={true} duration={500}>
+              <Link to="about" smooth={true} duration={500} onClick={closeMenu}>
                 About us
               </Link>
             </li>
             <li className="cursor-pointer">
-              <Link to="specialities" smooth={true} duration={500}>
+              <Link
+                to="specialities"
+                smooth={true}
+                duration={500}
+                onClick={closeMenu}
+              >
                 Our Specialities
               </Link>
             </li>
             {/* <li className="cursor-pointer">
-              <Link to="services" smooth={true} duration={500}>
+              <Link to="services" smooth={true} duration={500} onClick={closeMenu}>
                 Healthcare Services
               </Link>
             </li> */}
             <li className="cursor-pointer">
-              <Link to="testimonials" smooth={true} duration={500}>
+              <Link
+                to="testimonials"
+                smooth={true}
+                duration={500}
+                onClick={closeMenu}
+              >
                 Testimonials
               </Link>
             </li>
             <li className="cursor-pointer">
-              <Link to="faq" smooth={true} duration={500}>
+              <Link to="faq" smooth={true} duration={500} onClick={closeMenu}>
                 FAQ
               </Link>
             </li>
             <li className="cursor-pointer">
-              <Link to="working" smooth={true} duration={500}>
+              <Link
+                to="working"
+                smooth={true}
+                duration={500}
+                onClick={closeMenu}
+              >
                 Working hours
               </Link>
             </li>
             <li className="cursor-pointer">
-              <Link to="contact" smooth={true} duration={500}>
+              <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                onClick={closeMenu}
+              >
                 Contact Us
               </Link>
             </li>
